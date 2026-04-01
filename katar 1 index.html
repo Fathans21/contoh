@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Unit Kerja Karang Taruna RW 05</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{line-height:1.6;color:#333}
+header{background:#ff7a00;color:white;padding:15px 30px;position:sticky;top:0;z-index:1000}
+nav{display:flex;justify-content:space-between;align-items:center}
+nav ul{display:flex;list-style:none}
+nav ul li{margin-left:20px}
+nav a{color:white;text-decoration:none;font-weight:bold}
+.hero{background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('katar2.PNG');background-size:cover;background-position:top;color:white;padding:120px 20px;text-align:center}
+.hero h1{font-size:40px;margin-bottom:10px}
+.section{padding:60px 20px;max-width:1100px;margin:auto}
+.section h2{color:#ff7a00;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{border:1px solid #ddd;padding:20px;border-radius:10px;box-shadow:0 2px 5px rgba(0,0,0,.1)}
+.footer{background:#222;color:white;text-align:center;padding:20px}
+.btn{background:#ff7a00;color:white;padding:10px 20px;border:none;border-radius:5px;cursor:pointer}
+iframe{width:100%;border:0;height:300px}
+@media(max-width:768px){nav ul{flex-direction:column;background:#ff7a00;position:absolute;top:60px;right:0;width:200px;display:none}
+nav ul.show{display:block}
+.menu-toggle{display:block;cursor:pointer}
+}
+.menu-toggle{display:none}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<div style="display:flex;align-items:center;gap:10px">
+<img src="katar.png" style="height:10S0px;width:100px;border-radius:30%">
+<strong>Karang Taruna RW 05</strong>
+</div>
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+<ul id="menu">
+<li><a href="#home">Beranda</a></li>
+<li><a href="#home">Profil</a></li>
+<li><a href="#kegiatan">Kegiatan</a></li>
+<li><a href="#berita">Berita</a></li>
+<li><a href="#kontak">Kontak</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<h1>Unit Kerja Karang Taruna RW 05</h1>
+<p>Wadah Pengembangan Generasi Muda</p>
+</section>
+
+<section class="section" id="profil">
+<h2>Profil</h2>
+<p>Karang Taruna adalah organisasi kepemudaan yang menjadi ruang bagi generasi muda untuk berkarya, berinovasi, dan berkontribusi bagi lingkungan. Dengan semangat kebersamaan, kami hadir untuk menggerakkan kegiatan sosial, olahraga, budaya, dan kepedulian masyarakat guna menciptakan lingkungan yang lebih maju dan solid.</p>
+</section>
+
+<section class="section">
+<h2>Visi & Misi</h2>
+<div class="grid">
+<div class="card">
+<h2 style="text-align: center;">Visi</h2>
+<p>Menjadi organisasi kepemudaan yang aktif, inovatif dan berkontribusi bagi masyarakat.</p>
+</div>
+<div class="card">
+<h2 style="text-align: center;">Misi</h2>
+<ul>
+<h3><style="text-size:8px;>Mengembangkan Potensi Pemuda</h3>
+<p><style="text-align:justify;>Mengadakan pelatihan digital dan kewirausahaan melalui kolaborasi dengan berbagai pihak.</p>
+<h3><style="text-size:8px;>Meningkatkan Kemandirian Organisasi</h3>
+<p><style="text-align:justify;>Mengelola program jasa pemuda dan produk kreatif sebagai sumber pemasukan berkelanjutan.</p>
+<h3><style="text-size:8px;>Mendorong Kreativitas dan Kepedulian Generasi Muda</h3>
+<p><style="text-align:justify;>Menyelenggarakan kegiatan sosial, bakti lingkungan, dan aksi kepedulian masyarakat.</p>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="section" id="kegiatan">
+<h2>Kegiatan</h2>
+<div class="grid">
+<div class="card">Bakti Sosial</div>
+<div class="card">Olahraga</div>
+<div class="card">Kewirausahan</div>
+<div class="card">Sponsorship</div>
+</div>
+</section>
+
+<section class="section" id="berita">
+<h2>Berita Terbaru</h2>
+<div class="grid">
+<div class="card">
+<h3>Kegiatan Ramadhan</h3>
+<p>Berbagi takjil kepada masyarakat sekitar.</p>
+</div>
+<div class="card">
+<h3>Kerja Bakti</h3>
+<p>Kegiatan membersihkan lingkungan RW 05.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="kontak">
+<h2>Google Maps</h2>
+<p>Alamat: KANTOR SEKRETARIAT RW 05 PULOGEBANG</p>
+<iframe src="https://www.google.com/maps?q=Jl.%20Komarudin%20Lama%20No.RT%20004/05,%20RT.3/RW.5,%20Pulo%20Gebang,%20Kec.%20Cakung,%20Kota%20Jakarta%20Timur,%20Daerah%20Khusus%20Ibukota%20Jakarta%2013950,%20Indonesia&output=embed"></iframe>
+<h2>Kontak</h2>
+<div style="display:flex; gap:5px; align-items:center;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+     width="30" 
+     alt="WhatsApp"> 081977661538<br>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="30"> Karang Taruna RW 05<br>
+  <img src="tiktok2.PNG" width="30"> Karang Taruna Rw 05<br>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" width="60"> Karang Taruna Rw 05<br>
+</div>
+</section>
+
+<footer class="footer">
+<p>© 2026 Unit Kerja Karang Taruna RW 05</p>
+</footer>
+
+<script>
+function toggleMenu(){
+var menu=document.getElementById('menu');
+menu.classList.toggle('show');
+}
+</script>
+
+</body>
+</html>
